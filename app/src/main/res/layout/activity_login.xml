@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/my_drawer_layout">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="帳號">
+            </TextView>
+            <EditText
+                android:id = "@+id/user_edit"
+                android:layout_width = "250dp"
+                android:layout_height = "wrap_content"
+                android:layout_gravity="center"
+                android:hint="輸入..."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="密碼">
+            </TextView>
+
+            <EditText
+                android:id = "@+id/password_edit"
+                android:layout_width = "250dp"
+                android:layout_height = "wrap_content"
+                android:layout_gravity="center"
+                android:hint="輸入..."
+                />
+            <Button
+                android:id = "@+id/btn_login"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width = "100dp"
+                android:layout_height = "wrap_content"
+                android:background="@drawable/shape"
+                android:layout_marginTop="15dp"
+                android:text="登入"
+                />
+
+            <Button
+                android:id = "@+id/btn_register"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width = "100dp"
+                android:layout_height = "wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape"
+                android:text="註冊"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:background="#99d1d6"
+            android:id="@+id/no_user"
+            >
+
+        </TextView>
+        <Button
+            android:id="@+id/score"
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="分數統計" />
+        <Button
+            android:id="@+id/login_user"
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="登入" />
+        <Button
+            android:id="@+id/caculate"
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="箭靶辨識" />
+<!--        <Button-->
+<!--            android:id="@+id/pin"-->
+<!--            android:layout_width="240dp"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:background="@android:color/white"-->
+<!--            android:text="品澤"-->
+<!--            >-->
+<!--        </Button>-->
+
+
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".MainActivity">-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="帳號">-->
+<!--    </TextView>-->
+<!--    <EditText-->
+<!--        android:id = "@+id/user_edit"-->
+<!--        android:layout_width = "match_parent"-->
+<!--        android:layout_height = "wrap_content"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="密碼">-->
+<!--    </TextView>-->
+
+<!--    <EditText-->
+<!--        android:id = "@+id/password_edit"-->
+<!--        android:layout_width = "match_parent"-->
+<!--        android:layout_height = "wrap_content"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id = "@+id/btn_login"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_width = "match_parent"-->
+<!--        android:layout_height = "wrap_content"-->
+<!--        android:text="Login"-->
+<!--        />-->
+
+
+
+<!--</androidx.appcompat.widget.LinearLayoutCompat>-->
